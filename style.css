@@ -108,7 +108,7 @@ body {
 
 .project iframe {
   flex: 2;
-  min-width: 450px;
+  min-width: 550px;
   height: 800px;
   border: none;
   background-color: white;
