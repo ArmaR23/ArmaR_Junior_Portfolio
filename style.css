@@ -193,3 +193,35 @@ footer {
     justify-content: center;
   }
 }
+
+record-player {
+    text-align: center;
+}
+
+.vinyl {
+    width: 200px; /* Adjust size as needed */
+    height: 200px;
+    border-radius: 50%; /* Makes the image circular */
+    animation: spin 3s linear infinite; /* Apply the spin animation */
+    display: left;
+    margin: 0 auto 20px auto; /* Center the image and add margin below */
+}
+
+/* Define the spinning animation */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Optional: style the audio player */
+audio {
+    width: 300px;
+    margin-top: 10px;
+}
+
+
+
