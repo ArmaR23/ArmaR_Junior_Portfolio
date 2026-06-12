@@ -7,7 +7,7 @@
 
 .press-start{
   font-family: "Press Start 2p",sans-serif;
-   font-weight: 700;
+   font-weight: 650;
   font-style: normal;
 
 }
@@ -38,6 +38,15 @@ body {
   height: 150px;
 }
 
+.navbar-left {
+  font-family: "Press Start 2p",sans-serif;
+  font-size: 15px;
+  text-shadow: 2px 2px #a1c9f0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
 .navbar-right {
   list-style: none;
   display: flex;
@@ -53,7 +62,7 @@ body {
 }
 
 .navbar-right a:hover {
-  color: #aaaaff;
+  color: #a1c9f0;
 }
 /*=========================
     TRIYNG DROPDOWN
